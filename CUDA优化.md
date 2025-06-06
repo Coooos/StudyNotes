@@ -1,0 +1,1 @@
+[如何在 CUDA C / C ++ 中优化数据传输 - NVIDIA 技术博客](https://developer.nvidia.com/zh-cn/blog/how-optimize-data-transfers-cuda-cc/)
