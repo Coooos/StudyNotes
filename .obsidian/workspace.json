@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d64abd31f13cd96b",
+        "id": "aa1ef963573a82f8",
         "type": "tabs",
         "children": [
           {
-            "id": "122bd277971d163c",
+            "id": "0eb15df7c6efe163",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/Cubals常见函数解析.md",
+                "file": "obisitain 同步问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cubals常见函数解析"
-            }
-          },
-          {
-            "id": "58e1bd5f19456b5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "todo/Cubals常见函数解析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cubals常见函数解析"
-            }
-          },
-          {
-            "id": "efcd40943edf12a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "todo/Cubals常见函数解析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cubals常见函数解析"
-            }
-          },
-          {
-            "id": "c47a854d7121cec0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "todo/Cubals常见函数解析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cubals常见函数解析"
-            }
-          },
-          {
-            "id": "d10f205e67da5216",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CUSPARSE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CUSPARSE"
+              "title": "obisitain 同步问题"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CUSPARSE.md",
+                "file": "obisitain 同步问题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CUSPARSE 的大纲"
+              "title": "obisitain 同步问题 的大纲"
             }
           }
         ],
@@ -227,34 +170,37 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d10f205e67da5216",
+  "active": "c8f4ab883cbb453b",
   "lastOpenFiles": [
-    "todo/Cubals常见函数解析.md",
-    "CUSPARSE.md",
-    "README.md",
-    "主维.md",
-    "todo/GFLOPS.md",
-    "todo/obisitain 同步问题.md",
-    "CUDA优化.md",
-    "todo/cs求职攻略.md",
-    "todo/知乎收藏的有深度的blog.md",
+    "100编程经验/优质blog.md",
+    "800并行程序设计/主维.md",
+    "obisitain 同步问题.md",
+    "800并行程序设计/GFLOPS.md",
+    "800并行程序设计/Cubals常见函数解析.md",
+    "700求职与实习/LSM - Tree.md",
+    "700求职与实习/cs求职攻略.md",
+    "900研究生杂记/生产者消费者模型.md",
     "900研究生杂记/有限元边界元学习笔记.md",
-    "todo/算法优化.md",
-    "todo/LSM - Tree.md",
-    "todo/git练习.md",
-    "todo/线程池.md",
+    "900研究生杂记/ANSYS 多物理场分析单位总结表.md",
+    "900研究生杂记/DNS服务器.md",
+    "900研究生杂记/JSON.md",
+    "900研究生杂记/RALL.md",
     "900研究生杂记/VPN（Virtual Private Network）.md",
-    "000计算机体系/Data_Structure/常见数据结构详解.md",
-    "000计算机体系/Design_Patterns/设计模式.md",
-    "000计算机体系/操作系统学习笔记.md",
-    "000计算机体系/设计模式.md",
-    "000计算机体系/优质blog总结.md",
-    "500现代c++/inline、extern.md",
-    "500现代c++/lambda表达式.md",
-    "500现代c++/future（期物）.md",
-    "500现代c++/const、static.md",
-    "500现代c++/c++锁类型.md",
-    "500现代c++/C++11标准.md",
+    "800并行程序设计/CUDA优化.md",
+    "800并行程序设计/`CUDA`流和并发.md",
+    "800并行程序设计/系统知识/CUDA 学习笔记.md",
+    "800并行程序设计/系统知识/GPU学习笔记.md",
+    "800并行程序设计/系统知识/OPEN MP 学习笔记.md",
+    "800并行程序设计/blog.md",
+    "800并行程序设计/CUDA_CHECK.md",
+    "800并行程序设计/系统知识",
+    "800并行程序设计/并行程序设计基础.md",
+    "800并行程序设计/CUSPARSE.md",
+    "700求职与实习/线程池.md",
+    "700求职与实习/项目笔记/C++11 线程池 项目学习经验.md",
+    "700求职与实习/项目笔记/集群聊天服务器.md",
+    "Git/imgs/12378140741.png",
+    "000计算机体系/OS",
     "900研究生杂记/assert",
     "800并行程序设计/assert",
     "700求职与实习/项目笔记/assert",
@@ -272,9 +218,6 @@
     "000计算机体系/Algorithm/imgs/7.gif",
     "000计算机体系/Algorithm/imgs/5.gif",
     "000计算机体系/Algorithm/imgs/3.gif",
-    "000计算机体系/Algorithm/imgs/2.gif",
-    "900研究生杂记",
-    "300Tools",
     "未命名 1.canvas",
     "未命名.canvas"
   ]
