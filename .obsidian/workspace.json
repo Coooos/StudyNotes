@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obisitain 同步问题.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "obisitain 同步问题"
+              "title": "README"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obisitain 同步问题.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "obisitain 同步问题 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -215,11 +215,11 @@
   },
   "active": "364f4a9094e2a728",
   "lastOpenFiles": [
+    "obisitain 同步问题.md",
     "本周工作任务流.md",
     "AI对话常用语句.md",
     "todo/内存带宽与内存数据速率.md",
     "000计算机体系/OS/操作系统学习笔记.md",
-    "obisitain 同步问题.md",
     "000计算机体系/Algorithm/基本算法思想.md",
     "000计算机体系/Algorithm/常见算法解析.md",
     "000计算机体系/Algorithm/imgs/1634621192597.png",
