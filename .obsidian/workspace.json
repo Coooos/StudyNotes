@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "800并行程序设计/系统知识/CUDA 学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "CUDA 学习笔记"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "800并行程序设计/系统知识/CUDA 学习笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "CUDA 学习笔记 的大纲"
             }
           }
         ],
@@ -215,13 +215,18 @@
   },
   "active": "364f4a9094e2a728",
   "lastOpenFiles": [
-    "obisitain 同步问题.md",
+    "000计算机体系/Algorithm/常见算法解析.md",
+    "000计算机体系/Algorithm/基本算法思想.md",
+    "900研究生杂记/库冲突.md",
+    "800并行程序设计/`CUDA`流和并发.md",
+    "100编程经验/调试.md",
+    "100编程经验/代码命名规则.md",
     "本周工作任务流.md",
+    "obisitain 同步问题.md",
+    "README.md",
     "AI对话常用语句.md",
     "todo/内存带宽与内存数据速率.md",
     "000计算机体系/OS/操作系统学习笔记.md",
-    "000计算机体系/Algorithm/基本算法思想.md",
-    "000计算机体系/Algorithm/常见算法解析.md",
     "000计算机体系/Algorithm/imgs/1634621192597.png",
     "000计算机体系/Algorithm/imgs/removelinked-list.jpg",
     "000计算机体系/Algorithm/imgs/e3.png",
@@ -239,17 +244,12 @@
     "100编程经验/优质blog.md",
     "100编程经验/链接（Link）.md",
     "100编程经验/合理的开辟线程数目.md",
-    "100编程经验/调试.md",
-    "100编程经验/代码命名规则.md",
     "800并行程序设计/系统知识/CUDA 学习笔记.md",
     "800并行程序设计/系统知识/GPU学习笔记.md",
     "未命名",
     "800并行程序设计/主维.md",
     "800并行程序设计/Cubals常见函数解析.md",
     "700求职与实习/LSM - Tree.md",
-    "700求职与实习/cs求职攻略.md",
-    "900研究生杂记/生产者消费者模型.md",
-    "900研究生杂记/有限元边界元学习笔记.md",
     "800并行程序设计/系统知识",
     "Git/imgs/12378140741.png",
     "000计算机体系/OS",
