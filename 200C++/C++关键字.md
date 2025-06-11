@@ -399,8 +399,12 @@ void func()
 ---
 
 # this
+
+
 # explicit
 
 # ：：
 
 # decltype
+# namespace
+https://blog.csdn.net/qq_40416052/article/details/82528676?fromshare=blogdetail&sharetype=blogdetail&sharerId=82528676&sharerefer=PC&sharesource=cos03&sharefrom=from_link
