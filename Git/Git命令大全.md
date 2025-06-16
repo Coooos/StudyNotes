@@ -84,8 +84,6 @@ git config --local user.email '你的 Email'
 
 > 不同点就是一个参数是 `global`（全局），一个是 `local`（本地） 。
 
-
-
 ### 2. 查看相关配置情况
 
 （1） 查看 `global` 类型的配置情况 
@@ -106,7 +104,7 @@ git config --local --list
 git config -l
 ```
 
-![1639919999452](assert/1639919999452.png)
+![](assert/1639919999452.png)
 
 查看不同级别的配置文件：
 
@@ -117,9 +115,6 @@ git config --system --list
 #查看当前用户（global）配置
 git config --global  --list
 ```
-
-
-
 
 
 ## 二、本地基本操作
@@ -177,8 +172,8 @@ git commit
 > ```
 
 当该命令没有带 `-m` 参数时，会跳出 `commit change log （COMMIT_EDITMSG）` 界面（如下所示），这个是 vi 编辑器（也有可能是 vim 编辑器），和 Linux 的使用是一样的，因为涉及到是否要保存编辑内容，所以这种提交方式下退出 vi 编辑器的命令有多种：
-
-![1639918254523](assert/1639918254523.png) 
+![](assert/1639918254523.png)
+ 
 
 - **保存并退出**
 

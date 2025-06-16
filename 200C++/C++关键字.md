@@ -404,9 +404,318 @@ void func()
 
 
 # explicit
+- explicit 修饰构造函数时，可以防止隐式转换和复制初始化
+- explicit 修饰转换函数时，可以防止隐式转换，但按语境转换除外
 
 # ：：
-
+- 全局作用域符（::name）：用于类型名称（类、类成员、成员函数、变量等）前，表示作用域为全局命名空间
+- 类作用域符（class::name）：用于表示指定类型的作用域范围是具体某个类的
+- 命名空间作用域符（namespace::name）:用于表示指定类型的作用域范围是具体某个命名空间的
 # decltype
+decltype的语法是:
+
+1. `decltype (expression)`
+
+这里的括号是必不可少的,decltype的作用是“查询表达式的类型”，因此，上面语句的效果是，返回 expression 表达式的类型。注意，decltype 仅仅“查询”表达式的类型，并不会对表达式进行“求值”。
+
+### 1.1 推导出表达式类型
+
+1. `int i = 4;`
+2. `decltype(i) a; //推导结果为int。a的类型为int。`
+
+### 1.2 与using/typedef合用，用于定义类型。
+
+1. `using size_t = decltype(sizeof(0));//sizeof(a)的返回值为size_t类型`
+2. `using ptrdiff_t = decltype((int*)0 - (int*)0);`
+3. `using nullptr_t = decltype(nullptr);`
+4. `vector<int >vec;`
+5. `typedef decltype(vec.begin()) vectype;`
+6. `for (vectype i = vec.begin; i != vec.end(); i++)`
+7. `{`
+8. `//...`
+9. `}`
+
+这样和auto一样，也提高了代码的可读性。
+
+### 1.3 重用匿名类型
+
+在C++中，我们有时候会遇上一些匿名类型，如:
+
+1. `struct` 
+2. `{`
+3.     `int d ;`
+4.     `doubel b;`
+5. `}anon_s;`
+
+而借助decltype，我们可以重新使用这个匿名的结构体：
+
+1. `decltype(anon_s) as ;//定义了一个上面匿名的结构体`
+
+### 1.4 泛型编程中结合auto，用于追踪函数的返回值类型
+
+这也是decltype最大的用途了。
+
+1. `template <typename T>`
+2. `auto multiply(T x, T y)->decltype(x*y)`
+3. `{`
+4.     `return x*y;`
+5. `}`
+
+完整代码见：[decltype.cpp](https://github.com/Light-City/CPlusPlusThings/tree/master/basic_content/decltype/decltype.cpp)
+
+## 2.判别规则
+
+对于decltype(e)而言，其判别结果受以下条件的影响：
+
+如果e是一个没有带括号的标记符表达式或者类成员访问表达式，那么的decltype（e）就是e所命名的实体的类型。此外，如果e是一个被重载的函数，则会导致编译错误。否则 ，假设e的类型是T，如果e是一个将亡值，那么decltype（e）为T&&否则，假设e的类型是T，如果e是一个左值，那么decltype（e）为T&。否则，假设e的类型是T，则decltype（e）为T。
+
+标记符指的是除去关键字、字面量等编译器需要使用的标记之外的程序员自己定义的标记，而单个标记符对应的表达式即为标记符表达式。例如：
+
+1. `int arr[4]`
+
+则arr为一个标记符表达式，而arr[3]+0不是。
+
+举例如下：
+
+1. `int i = 4;`
+2. `int arr[5] = { 0 };`
+3. `int *ptr = arr;`
+4. `struct S{ double d; }s ;`
+5. `void Overloaded(int);`
+6. `void Overloaded(char);//重载的函数`
+7. `int && RvalRef();`
+8. `const bool Func(int);`
+
+9. `//规则一：推导为其类型`
+10. `decltype (arr) var1; //int 标记符表达式`
+
+11. `decltype (ptr) var2;//int *  标记符表达式`
+
+12. `decltype(s.d) var3;//doubel 成员访问表达式`
+
+13. `//decltype(Overloaded) var4;//重载函数。编译错误。`
+
+14. `//规则二：将亡值。推导为类型的右值引用。`
+
+15. `decltype (RvalRef()) var5 = 1;`
+
+16. `//规则三：左值，推导为类型的引用。`
+
+17. `decltype ((i))var6 = i;     //int&`
+
+18. `decltype (true ? i : i) var7 = i; //int&  条件表达式返回左值。`
+
+19. `decltype (++i) var8 = i; //int&  ++i返回i的左值。`
+
+20. `decltype(arr[5]) var9 = i;//int&. []操作返回左值`
+
+21. `decltype(*ptr)var10 = i;//int& *操作返回左值`
+
+22. `decltype("hello")var11 = "hello"; //const char(&)[9]  字符串字面常量为左值，且为const左值。`
+
+23. `//规则四：以上都不是，则推导为本类型`
+
+24. `decltype(1) var12;//const int`
+
+25. `decltype(Func(1)) var13=true;//const bool`
+
+26. `decltype(i++) var14 = i;//int i++返回右值`
+
+学习参考：[https://www.cnblogs.com/QG-whz/p/4952980.html](https://www.cnblogs.com/QG-whz/p/4952980.html)
 # namespace
 https://blog.csdn.net/qq_40416052/article/details/82528676?fromshare=blogdetail&sharetype=blogdetail&sharerId=82528676&sharerefer=PC&sharesource=cos03&sharefrom=from_link
+
+# 宏
+## 1.宏中包含特殊符号
+
+分为几种：`#`，`##`，`\`
+
+### 1.1 字符串化操作符（#）
+
+**在一个宏中的参数前面使用一个#,预处理器会把这个参数转换为一个字符数组**，换言之就是：**#是“字符串化”的意思，出现在宏定义中的#是把跟在后面的参数转换成一个字符串**。
+
+**注意：其只能用于有传入参数的宏定义中，且必须置于宏定义体中的参数名前。**
+
+例如：
+
+1. `#define exp(s) printf("test s is:%s\n",s)`
+2. `#define exp1(s) printf("test s is:%s\n",#s)`
+3. `#define exp2(s) #s` 
+4. `int main() {`
+5.     `exp("hello");`
+6.     `exp1(hello);`
+
+7.     `string str = exp2(   bac );`
+8.     `cout<<str<<" "<<str.size()<<endl;`
+9.     `/**`
+10.      `* 忽略传入参数名前面和后面的空格。`
+11.      `*/`
+12.     `string str1 = exp2( asda  bac );`
+13.     `/**`
+14.      `* 当传入参数名间存在空格时，编译器将会自动连接各个子字符串，`
+15.      `* 用每个子字符串之间以一个空格连接，忽略剩余空格。`
+16.      `*/`
+17.     `cout<<str1<<" "<<str1.size()<<endl;`
+18.     `return 0;`
+19. `}`
+
+上述代码给出了基本的使用与空格处理规则，空格处理规则如下：
+
+- 忽略传入参数名前面和后面的空格。
+
+1. `string str = exp2(   bac );`
+2. `cout<<str<<" "<<str.size()<<endl;`
+
+输出：
+
+1. `bac 3`
+
+- 当传入参数名间存在空格时，编译器将会自动连接各个子字符串，用每个子字符串之间以一个空格连接，忽略剩余空格。
+
+1. `string str1 = exp2( asda  bac );`
+2. `cout<<str1<<" "<<str1.size()<<endl;`
+
+输出：
+
+1. `asda bac 8`
+
+### 1.2 符号连接操作符（##）
+
+**“##”是一种分隔连接方式，它的作用是先分隔，然后进行强制连接。将宏定义的多个形参转换成一个实际参数名。**
+
+注意事项：
+
+**（1）当用##连接形参时，##前后的空格可有可无。**
+
+**（2）连接后的实际参数名，必须为实际存在的参数名或是编译器已知的宏定义。**
+
+**（3）如果##后的参数本身也是一个宏的话，##会阻止这个宏的展开。**
+
+示例：
+
+1. `#define expA(s) printf("前缀加上后的字符串为:%s\n",gc_##s)  //gc_s必须存在`
+2. `// 注意事项2`
+3. `#define expB(s) printf("前缀加上后的字符串为:%s\n",gc_  ##  s)  //gc_s必须存在`
+4. `// 注意事项1`
+5. `#define gc_hello1 "I am gc_hello1"`
+6. `int main() {`
+7.     `// 注意事项1`
+8.     `const char * gc_hello = "I am gc_hello";`
+9.     `expA(hello);`
+10.     `expB(hello1);`
+11. `}`
+
+### 1.3 续行操作符（\）
+
+**当定义的宏不能用一行表达完整时，可以用”\”表示下一行继续此宏的定义。**
+
+**注意 \ 前留空格。**
+
+1. `#define MAX(a,b) ((a)>(b) ? (a) \`
+2.    `:(b))`  
+3. `int main() {`
+4.     `int max_val = MAX(3,6);`
+5.     `cout<<max_val<<endl;`
+6. `}`
+
+上述代码见：[sig_examp.cpp](https://github.com/Light-City/CPlusPlusThings/tree/master/basic_content/macro/sig_examp.cpp)
+
+## 2.do{…}while(0)的使用
+
+### 2.1 避免语义曲解
+
+例如：
+
+1. `#define fun() f1();f2();`
+2. `if(a>0)`
+3.     `fun()`
+
+这个宏被展开后就是：
+
+1. `if(a>0)`
+2.     `f1();`
+3.     `f2();`
+
+本意是a>0执行f1 f2，而实际是f2每次都会执行，所以就错误了。
+
+为了解决这种问题，在写代码的时候，通常可以采用`{}`块。
+
+如：
+
+1. `#define fun() {f1();f2();}`
+2. `if(a>0)`
+3.     `fun();`
+4. `// 宏展开`
+5. `if(a>0)`
+6. `{`
+7.     `f1();`
+8.     `f2();`
+9. `};`
+
+但是会发现上述宏展开后多了一个分号，实际语法不太对。(虽然编译运行没问题，正常没分号)。
+
+### 2.2避免使用goto控制流
+
+在一些函数中，我们可能需要在return语句之前做一些清理工作，比如释放在函数开始处由malloc申请的内存空间，使用goto总是一种简单的方法：
+
+1. `int f() {`
+2.     `int *p = (int *)malloc(sizeof(int));`
+3.     `*p = 10;` 
+4.     `cout<<*p<<endl;`
+5. `#ifndef DEBUG`
+6.     `int error=1;`
+7. `#endif`
+8.     `if(error)`
+9.         `goto END;`
+10.     `// dosomething`
+11. `END:`
+12.     `cout<<"free"<<endl;`
+13.     `free(p);`
+14.     `return 0;`
+15. `}`
+
+但由于goto不符合软件工程的结构化，而且有可能使得代码难懂，所以很多人都不倡导使用，这个时候我们可以使用do{…}while(0)来做同样的事情：
+
+1. `int ff() {`
+2.     `int *p = (int *)malloc(sizeof(int));`
+3.     `*p = 10;` 
+4.     `cout<<*p<<endl;`
+5.     `do{` 
+6. `#ifndef DEBUG`
+7.         `int error=1;`
+8. `#endif`
+9.         `if(error)`
+10.             `break;`
+11.         `//dosomething`
+12.     `}while(0);`
+13.     `cout<<"free"<<endl;`
+14.     `free(p);`
+15.     `return 0;`
+16. `}`
+
+这里将函数主体部分使用do{…}while(0)包含起来，使用break来代替goto，后续的清理工作在while之后，现在既能达到同样的效果，而且代码的可读性、可维护性都要比上面的goto代码好的多了。
+
+### 2.3 避免由宏引起的警告
+
+内核中由于不同架构的限制，很多时候会用到空宏，。在编译的时候，这些空宏会给出warning，为了避免这样的warning，我们可以使用do{…}while(0)来定义空宏：
+
+1. `#define EMPTYMICRO do{}while(0)`
+
+### 2.4 定义单一的函数块来完成复杂的操作
+
+如果你有一个复杂的函数，变量很多，而且你不想要增加新的函数，可以使用do{…}while(0)，将你的代码写在里面，里面可以定义变量而不用考虑变量名会同函数之前或者之后的重复。这种情况应该是指一个变量多处使用（但每处的意义还不同），我们可以在每个do-while中缩小作用域，比如：
+
+1. `int fc()`
+2. `{`
+3.     `int k1 = 10;`
+4.     `cout<<k1<<endl;`
+5.     `do{`
+6.         `int k1 = 100;`
+7.         `cout<<k1<<endl;`
+8.     `}while(0);`
+9.     `cout<<k1<<endl;`
+10. `}`
+
+上述代码见：[do_while.cpp](https://github.com/Light-City/CPlusPlusThings/tree/master/basic_content/macro/do_while.cpp)
+
+学习文章：[https://www.cnblogs.com/lizhenghn/p/3674430.html](https://www.cnblogs.com/lizhenghn/p/3674430.html)
