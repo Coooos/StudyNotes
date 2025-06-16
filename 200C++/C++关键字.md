@@ -1,4 +1,6 @@
+[基础进阶 - const那些事 - 《C++那些事（Stories About C Plus Plus）》 - 书栈网 · BookStack](https://www.bookstack.cn/read/CPlusPlusThings/97534d50f44dc7a3.md)
 # const
+
 `const` 关键字用于声明常量，它指定了一个变量在初始化后不能被修改的特性。`const` 可以用于变量、成员函数和指针。
 
 ### 1. 常量变量（Const Variables）
