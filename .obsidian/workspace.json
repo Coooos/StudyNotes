@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git命令大全.md",
+                "file": "本周工作任务流.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git命令大全"
+              "title": "本周工作任务流"
             }
           },
           {
@@ -255,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git命令大全.md",
+                "file": "本周工作任务流.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git命令大全 的大纲"
+              "title": "本周工作任务流 的大纲"
             }
           },
           {
@@ -293,8 +293,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f469354118ff1e87",
+  "active": "c8f4ab883cbb453b",
   "lastOpenFiles": [
+    "1.txt",
+    "新建 文本文档.txt",
+    "cudastream与Cublas库函数结合.md",
+    "README.md",
+    "Git/Git命令大全.md",
     "todo/单例模式.md",
     "200C++/C++关键字.md",
     "todo/TinyWebServer 项目笔记.md",
@@ -315,13 +320,10 @@
     "200C++/enum 枚举.md",
     "200C++/firend 友元.md",
     "200C++/extern .c文件与.cpp调用事宜.md",
-    "cudastream与Cublas库函数结合.md",
     "本周工作任务流.md",
     "todo/cs求职攻略.md",
-    "Git/Git命令大全.md",
     "未命名.canvas",
     "todo/cuda与UG冲突问题.md",
-    "200C++/引用和指针.md",
     "Git/assert/1639918254523.png",
     "Git/assert/12378140741.png",
     "Git/assert/75555564321.png",
@@ -331,7 +333,6 @@
     "Git/assert/1640075466017.png",
     "Git/assert/4784673524587.png",
     "Git/assert/4876352545458.png",
-    "todo/就业方向.md",
     "700求职与实习/项目笔记/assets/Pasted image 20250427094026.png",
     "700求职与实习/项目笔记/assets/C++11 ThreadPool",
     "700求职与实习/项目笔记/assets",
@@ -341,7 +342,6 @@
     "未命名",
     "000计算机体系/数据库",
     "800并行程序设计/系统知识",
-    "000计算机体系/OS",
     "未命名 1.canvas"
   ]
 }
