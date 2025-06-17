@@ -563,3 +563,14 @@ git push origin master
 ```
 
  `origin` 指代的是当前的 git 服务器地址，这行命令的意思是把 `master` 分支推送到服务器。 
+#### （13）将服务器的代码推送到本地
+
+```shell
+git pull origin master:brantest
+```
+
+将远程主机 origin 的 master 分支拉取过来，与本地的 brantest 分支合并。
+
+
+如果远程分支是与当前分支合并，则冒号后面的部分可以省略。
+
