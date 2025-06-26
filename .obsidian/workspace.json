@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "本周工作任务流.md",
+                "file": "Git/Git命令大全.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周工作任务流"
+              "title": "Git命令大全"
             }
           },
           {
@@ -311,13 +311,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "本周工作任务流.md",
+                "file": "Git/Git命令大全.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "本周工作任务流 的大纲"
+              "title": "Git命令大全 的大纲"
             }
           },
           {
@@ -351,6 +351,7 @@
   },
   "active": "f804debb9f118650",
   "lastOpenFiles": [
+    "本周工作任务流.md",
     "todo/单例模式.md",
     "todo/cs求职攻略.md",
     "todo/cudastream与Cublas库函数结合.md",
@@ -361,7 +362,6 @@
     "头文件 源文件链接问题，.md",
     "问题.md",
     "000计算机体系/Algorithm/基本算法思想.md",
-    "本周工作任务流.md",
     "README.md",
     "todo/cuda与UG冲突问题.md",
     "200C++/引用和指针.md",
