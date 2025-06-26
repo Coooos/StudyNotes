@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git命令大全.md",
+                "file": "Git/建立同步系统时，遇到的问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git命令大全"
+              "title": "建立同步系统时，遇到的问题"
             }
           },
           {
@@ -311,13 +311,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git命令大全.md",
+                "file": "Git/建立同步系统时，遇到的问题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git命令大全 的大纲"
+              "title": "建立同步系统时，遇到的问题 的大纲"
             }
           },
           {
@@ -351,6 +351,8 @@
   },
   "active": "f804debb9f118650",
   "lastOpenFiles": [
+    "Git/Git命令大全.md",
+    "Git/建立同步系统时，遇到的问题.md",
     "本周工作任务流.md",
     "todo/单例模式.md",
     "todo/cs求职攻略.md",
@@ -372,12 +374,10 @@
     "400Linux/Linux课程笔记.md",
     "400Linux/Linux_Command/Linux常用命令.md",
     "700求职与实习/简历话术.md",
-    "Git/Git命令大全.md",
     "1.txt",
     "000计算机体系/锁.md",
     "300现代c++/c++锁类型.md",
     "300现代c++/智能指针.md",
-    "300现代c++/c++并发编程 原子操作.md",
     "300现代c++/C++11",
     "未命名.canvas",
     "Git/assert/1639918254523.png",
