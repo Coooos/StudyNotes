@@ -4,193 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6160715fde0aeb2c",
+        "id": "d3d605c44b161647",
         "type": "tabs",
         "children": [
           {
-            "id": "22cf8b55fe2f460c",
+            "id": "01b0527e2fac362a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/单例模式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "单例模式"
-            }
-          },
-          {
-            "id": "36ec0d5234fdf3ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200C++/C++关键字.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C++关键字"
-            }
-          },
-          {
-            "id": "e59a1526884725d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200C++/引用和指针.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "引用和指针"
-            }
-          },
-          {
-            "id": "20b118fc0b4baef3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200C++/enum 枚举.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "enum 枚举"
-            }
-          },
-          {
-            "id": "803784d314e7dbe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200C++/firend 友元.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "firend 友元"
-            }
-          },
-          {
-            "id": "cf91399861a976cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "本周工作任务流.md",
+                "file": "todo/本周工作任务流.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "本周工作任务流"
-            }
-          },
-          {
-            "id": "f469354118ff1e87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "todo/单例模式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "单例模式"
-            }
-          },
-          {
-            "id": "b05d22bce0e87cd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "本周工作任务流.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "本周工作任务流"
-            }
-          },
-          {
-            "id": "3ef2f86fbe40a79c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000计算机体系/Algorithm/常见算法解析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "常见算法解析"
-            }
-          },
-          {
-            "id": "967c21783e1fdb7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "问题"
-            }
-          },
-          {
-            "id": "f804debb9f118650",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/建立同步系统时，遇到的问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "建立同步系统时，遇到的问题"
-            }
-          },
-          {
-            "id": "8c8aa8f4f77b7837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300现代c++/C++11/完美转发.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "完美转发"
-            }
-          },
-          {
-            "id": "9ccfe3af4f2fa79b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300现代c++/C++11/可变参数模板.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "可变参数模板"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -311,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/建立同步系统时，遇到的问题.md",
+                "file": "todo/本周工作任务流.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "建立同步系统时，遇到的问题 的大纲"
+              "title": "本周工作任务流 的大纲"
             }
           },
           {
@@ -349,35 +180,35 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f804debb9f118650",
+  "active": "01b0527e2fac362a",
   "lastOpenFiles": [
-    "Git/Git命令大全.md",
-    "Git/建立同步系统时，遇到的问题.md",
-    "本周工作任务流.md",
-    "todo/单例模式.md",
     "todo/cs求职攻略.md",
-    "todo/cudastream与Cublas库函数结合.md",
-    "todo/Gtest.md",
-    "todo/Leetcode常见算法.md",
+    "800并行程序设计/cudastream与Cublas库函数结合.md",
+    "500/单例模式.md",
+    "500",
     "todo/TinyWebServer 项目笔记.md",
-    "000计算机体系/Algorithm/常见算法解析.md",
-    "头文件 源文件链接问题，.md",
-    "问题.md",
-    "000计算机体系/Algorithm/基本算法思想.md",
-    "README.md",
-    "todo/cuda与UG冲突问题.md",
-    "200C++/引用和指针.md",
-    "200C++/C++关键字.md",
+    "todo/Leetcode常见算法.md",
     "200C++/cpp基础/C++核心编程.md",
-    "200C++/cpp基础/C++基础入门.md",
-    "200C++/cpp基础/C++提高编程.md",
-    "400Linux/Linux课程笔记.md",
-    "400Linux/Linux_Command/Linux常用命令.md",
+    "700求职与实习/LSM - Tree.md",
+    "700求职与实习/blog.md",
     "700求职与实习/简历话术.md",
+    "700求职与实习/todo/待做项目.md",
+    "700求职与实习/项目笔记/TC malloc 项目学习经验.md",
+    "700求职与实习/项目笔记/C++11 ThreadPool.md",
+    "todo/本周工作任务流.md",
+    "200C++/static_cast.md",
+    "200C++/C++关键字.md",
+    "200C++/引用和指针.md",
+    "200C++/enum 枚举.md",
+    "200C++/firend 友元.md",
+    "000计算机体系/Algorithm/常见算法解析.md",
+    "todo/问题.md",
+    "200C++/内联函数.md",
+    "100编程经验/代码命名规则.md",
+    "100编程经验/翻译单元.md",
+    "100编程经验/调试.md",
+    "100编程经验/README文件编写.md",
     "1.txt",
-    "000计算机体系/锁.md",
-    "300现代c++/c++锁类型.md",
-    "300现代c++/智能指针.md",
     "300现代c++/C++11",
     "未命名.canvas",
     "Git/assert/1639918254523.png",
@@ -395,7 +226,6 @@
     "todo/assets/C++11 ThreadPool",
     "todo/assets",
     "700求职与实习/todo",
-    "未命名",
     "000计算机体系/数据库",
     "800并行程序设计/系统知识",
     "未命名 1.canvas"
