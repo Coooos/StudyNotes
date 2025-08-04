@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "000计算机体系/NetWork/计算机网络.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "计算机网络"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "000计算机体系/NetWork/计算机网络.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "计算机网络 的大纲"
             }
           },
           {
@@ -196,6 +196,11 @@
   },
   "active": "560f45a80a3010d6",
   "lastOpenFiles": [
+    "000计算机体系/NetWork/HTTP详解.md",
+    "000计算机体系/NetWork/计算机网络.md",
+    "000计算机体系/NetWork/湖科大计算机网络学习笔记/计算机网络第一章（概述）/计算机网络第1章（概述）.md",
+    "000计算机体系/NetWork/湖科大计算机网络学习笔记/计算机网络第二章（物理层）/计算机网络第2章（物理层）.md",
+    "README.md",
     "Git/建立同步系统时，遇到的问题.md",
     "Git/Git命令大全.md",
     "500工程经验/空指针解引用.md",
@@ -208,7 +213,6 @@
     "900拓展知识/单元测试.md",
     "900拓展知识/单例模式.md",
     "todo/Week Tasks.md",
-    "README.md",
     "todo/TinyWebServer 项目笔记.md",
     "100Linux/linux系统编程.md",
     "100Linux/Linux网络编程.md",
@@ -219,10 +223,6 @@
     "500工程经验/最小化头文件依赖.md",
     "600数据结构与算法/算法思想/动态规划.md",
     "todo/400Linux/Linux_Command/Linux常用命令.md",
-    "todo/套接字.md",
-    "todo/最近的刷题总结.md",
-    "600数据结构与算法/常见算法解析.md",
-    "600数据结构与算法/算法思想/贪心算法.md",
     "600数据结构与算法/算法思想/assets/回溯算法/file-20250717102542038.png",
     "600数据结构与算法/算法思想/assets/贪心算法/file-20250721213243117.png",
     "600数据结构与算法/算法实例",
