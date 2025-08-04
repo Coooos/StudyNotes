@@ -12,7 +12,7 @@ tags:
 [CUDA编程基础(四)—GPU线程调度 - 皮皮鲁的文章 - 知乎 https://zhuanlan.zhihu.com/p/12083951223](https://zhuanlan.zhihu.com/p/12083951223)
 
 [https://www.cnblogs.com/skyfsm/p/9673960.html](https://www.cnblogs.com/skyfsm/p/9673960.html)
-[[并行程序设计基础]]
+[[../并行程序设计基础]]
 ## 前言
 
 GPU （Graphics Processing Unit）, 翻译成中文是图形处理单元。我们一般会将 GPU 和 CPU 进行类比, 认为两者是同等地位的, 因为两者的名字只相差一个单词。这样的想法是错误的。GPU 和IO 设备 一样, 属于 外接设备, 有时我们也称其为 计算设备。和其它设备一样, 在安装完成 GPU 后, 我们需要安装显卡驱动, 才能保证程序的正常运行。所有的外接设备统一由 CPU 调控, GPU 自然也不例外。只有当 CPU 向 GPU 发出指令信号时, GPU 才会执行, 其它阶段都是不执行的。在硬件架构上, GPU 等价于 CPU + 内存, 可以进行独立的计算。我们可以将 GPU 理解为一个半成品的电脑, 只有 CPU 和 内存, 没有硬盘, 也没有操作系统。

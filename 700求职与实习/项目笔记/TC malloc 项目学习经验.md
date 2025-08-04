@@ -12,7 +12,7 @@ tags:
 `new` 是 C++ 的操作符，用于对象分配，安全且自动初始化；`malloc` 是 C 的函数，仅分配内存，需手动管理类型和初始化。new的底层是用malloc实现的。new和delete中封装了operator new和operator delete。 operator new中又调用了malloc来帮助new来开空间，封装malloc复合C++中new失败了抛异常的机制。 operator delete中也是通过宏定义后的free来释放空间。所以说C/C++中申请和释放内存块最终还是通过malloc和free来实现的。
 
 
-![[Pasted image 20250427152221.png]]
+![[assets/Pasted image 20250427152221.png]]
 
 ## 为什么需要内存池
 
@@ -35,7 +35,7 @@ tags:
 2. 内部碎片：即已分配给进程或应用程序的内存中，实际使用但没有被完全填满的部分。例如，某个进程申请了100个字节的内存，但只实际使用了80个字节，那么剩下的20个字节就构成了一个内部碎片。
 
 
-![[Pasted image 20250427093731.png]]
+![[assets/Pasted image 20250427093731.png]]
 
 ## 高并发内存池基本框架
 一个进程中有几个线程，就会有几个tc，也就是每一个线程都会有其对应的tc，可以认为tc就是一个类的对象，内部包含一些数据结构，并保存了一些空间。
@@ -47,10 +47,10 @@ tags:
 如果单次申请的空间大于了256KB，tc就会用其他方式去申请空间，
 ### threadCache
 每来一个size都要有一套规则去计算对应的桶在哪里，比如要20B就找对应24B的桶，看24B对应的自由链表下面有没有挂空闲的空间，如果有了就拿一块给对应线程，如果没有就向下一层的central cache申请。
-![[Pasted image 20250427153931.png]]
+![[assets/Pasted image 20250427153931.png]]
 ### 申请与释放空间流程
 
-![[Pasted image 20250427094026.png]]![[Pasted image 20250427094043.png]]
+![[assets/Pasted image 20250427094026.png]]![[assets/Pasted image 20250427094043.png]]
 
 
 

@@ -96,7 +96,7 @@ int main() {
 
 打印结果：
 
-![1545017602518](1545017602518.png)
+![1545017602518](assets2/1545017602518.png)
 
 
 
@@ -3178,7 +3178,7 @@ B 类称为父类 或 基类
 
 
 
-![img](200C++/cpp基础/assets/clip_image002.png)
+![img](assets/clip_image002.png)
 
 
 
@@ -3754,7 +3754,7 @@ int main() {
 
 
 
-![IMG\_256](200C++/cpp基础/assets/clip_image002.jpg)
+![IMG\_256](assets/clip_image002.jpg)
 
 
 

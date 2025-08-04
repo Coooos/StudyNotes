@@ -861,7 +861,7 @@ if语句的三种形式
 
 1. 单行格式if语句：`if(条件){ 条件满足执行的语句 }`
 
-   ![img](200C++/cpp基础/assets/clip_image002.png)
+   ![img](assets/clip_image002.png)
 
    示例：
 
