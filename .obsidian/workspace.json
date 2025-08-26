@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "单调栈、优先队列与堆"
             }
+          },
+          {
+            "id": "ee0360f88d9f7710",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.10"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,6 +196,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -194,7 +207,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "560f45a80a3010d6",
+  "active": "ee0360f88d9f7710",
   "lastOpenFiles": [
     "600数据结构与算法/算法思想/动态规划.md",
     "600数据结构与算法/算法实例/单调栈、优先队列与堆.md",
