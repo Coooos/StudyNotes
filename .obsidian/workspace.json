@@ -39,16 +39,32 @@
             "id": "ee0360f88d9f7710",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.10"
+                "file": "600数据结构与算法/算法思想/动态规划.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.10"
+              "icon": "lucide-file",
+              "title": "动态规划"
+            }
+          },
+          {
+            "id": "d03a3792e7a343b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo/套接字.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "套接字"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -168,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600数据结构与算法/算法实例/单调栈、优先队列与堆.md",
+                "file": "todo/套接字.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "单调栈、优先队列与堆 的大纲"
+              "title": "套接字 的大纲"
             }
           },
           {
@@ -207,34 +223,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee0360f88d9f7710",
+  "active": "d03a3792e7a343b9",
   "lastOpenFiles": [
-    "600数据结构与算法/算法思想/动态规划.md",
-    "600数据结构与算法/算法实例/单调栈、优先队列与堆.md",
-    "600数据结构与算法/算法思想/回溯算法.md",
-    "600数据结构与算法/算法思想/贪心算法.md",
-    "600数据结构与算法/算法思想/基本算法思想.md",
-    "600数据结构与算法/常见算法解析.md",
-    "600数据结构与算法/算法实例/递归算法.md",
-    "600数据结构与算法/算法实例/二叉树-递归与回溯.md",
-    "600数据结构与算法/算法实例/滑动窗口算法.md",
-    "600数据结构与算法/算法实例/KMP算法.md",
-    "todo/Week Tasks.md",
     "todo/TinyWebServer 项目笔记.md",
-    "600数据结构与算法/算法思想/分治算法.md",
-    "todo/套接字.md",
-    "000计算机体系/NetWork/计算机网络.md",
-    "000计算机体系/NetWork/HTTP详解.md",
-    "000计算机体系/NetWork/湖科大计算机网络学习笔记/计算机网络第一章（概述）/计算机网络第1章（概述）.md",
-    "000计算机体系/NetWork/湖科大计算机网络学习笔记/计算机网络第二章（物理层）/计算机网络第2章（物理层）.md",
+    "todo/Week Tasks.md",
     "README.md",
-    "Git/建立同步系统时，遇到的问题.md",
-    "Git/Git命令大全.md",
     "500工程经验/空指针解引用.md",
     "500工程经验/合理的开辟线程数目.md",
     "500工程经验/调试.md",
     "500工程经验/代码命名规则.md",
     "500工程经验/常见英文bug的意思.md",
+    "600数据结构与算法/算法思想/分治算法.md",
+    "600数据结构与算法/算法思想/动态规划.md",
+    "600数据结构与算法/如何刷leetcode （hot 100 总结）.md",
+    "700求职与实习/如何刷leetcode（思路与心得）.md",
+    "700求职与实习/blog.md",
+    "700求职与实习/LSM - Tree.md",
+    "700求职与实习/todo/待做项目.md",
+    "700求职与实习/简历话术.md",
+    "600数据结构与算法/算法思想/贪心算法.md",
+    "600数据结构与算法/算法思想/基本算法思想.md",
+    "600数据结构与算法/算法思想/回溯算法.md",
+    "600数据结构与算法/算法实例/常见算法解析.md",
+    "600数据结构与算法/算法实例/滑动窗口算法.md",
+    "600数据结构与算法/算法实例/二叉树-递归与回溯.md",
+    "600数据结构与算法/算法实例/KMP算法.md",
+    "600数据结构与算法/算法实例/递归算法.md",
+    "600数据结构与算法/算法实例/单调栈、优先队列与堆.md",
+    "todo/套接字.md",
     "800数据库/ques_imgs/主从复制.png",
     "600数据结构与算法/算法思想/assets/回溯算法/file-20250717102542038.png",
     "600数据结构与算法/算法思想/assets/贪心算法/file-20250721213243117.png",

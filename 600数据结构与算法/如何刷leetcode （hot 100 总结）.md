@@ -1,3 +1,7 @@
+8/28日，我第一次刷完了hot 100，有一种非常的成就感。
+
+---
+# 如何刷力扣
 https://leetcode.cn/discuss/post/3653650/200tian-600ti-yi-ji-fan-si-zong-jie-by-s-n264/
 
 ---
@@ -20,7 +24,7 @@ https://leetcode.cn/discuss/post/3653650/200tian-600ti-yi-ji-fan-si-zong-jie-by-
    - 讨论区：学习高赞题解的**优化思路**（如时间/空间复杂度从O(n²)到O(n)的技巧）。
 
 4. **记录错题和复盘**  
-   - 用Excel或Notion记录每题的**错误原因**（如边界条件、超时）、**相似题型**和**优化点**。  
+   - 用语雀记录每题的**错误原因**（如边界条件、超时）、**相似题型**和**优化点**。  
    - 定期重做错题，避免“一看就会，一写就废”。
 
 ---
@@ -57,7 +61,7 @@ https://leetcode.cn/discuss/post/3653650/200tian-600ti-yi-ji-fan-si-zong-jie-by-
 
 ---
 
-### **四、推荐学习路线**
+### **四、学习路线**
 1. **新手入门**  
    - 书籍：《剑指Offer》《算法图解》  
    - 视频：[代码随想录](https://programmercarl.com/)、[labuladong的算法小抄](https://labuladong.github.io/algo/)  
@@ -70,4 +74,3 @@ https://leetcode.cn/discuss/post/3653650/200tian-600ti-yi-ji-fan-si-zong-jie-by-
 ### **最后提醒**
 - 刷题只是求职的一部分，**项目经验、系统设计、行为面试**同样重要。合理安排时间，避免“只刷题”或“完全不刷”两个极端。  
 - 保持规律（如每天3题），比突击更有效。  
-
