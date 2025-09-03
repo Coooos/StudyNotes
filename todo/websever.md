@@ -1,9 +1,15 @@
 
 [从零开始实现C++ TinyWebServer 全过程记录_tinywebserver要做多久-CSDN博客](https://blog.csdn.net/weixin_51322383/article/details/130464403)
 
-
-
 [从零开始自制实现C++ High-Performance WebServer 全流程记录_c++ webserver项目 速成-CSDN博客](https://love6.blog.csdn.net/article/details/123754194)
+
+[基于Linux下的vscode c/c++开发环境搭建详细教程_linux配置vscode c++环境-CSDN博客](https://blog.csdn.net/icacxygh001/article/details/120981354)
+
+
+
+---
+
+**本项目基于本站施磊老师的课程进行coding
 
 ---
 
