@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "todo/TinyWebServer 项目笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "TinyWebServer 项目笔记"
             }
           }
         ],
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "todo/TinyWebServer 项目笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "TinyWebServer 项目笔记 的大纲"
             }
           },
           {
@@ -225,9 +225,9 @@
   },
   "active": "d03a3792e7a343b9",
   "lastOpenFiles": [
-    "todo/TinyWebServer 项目笔记.md",
-    "README.md",
     "todo/Week Tasks.md",
+    "README.md",
+    "todo/TinyWebServer 项目笔记.md",
     "assets/README/学习路线图.jpg",
     "assets/README",
     "assets",
