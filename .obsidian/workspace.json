@@ -41,20 +41,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "600数据结构与算法/算法思想/动态规划.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "动态规划"
-            }
-          },
-          {
-            "id": "d03a3792e7a343b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "todo/websever.md",
                 "mode": "source",
                 "source": false
@@ -62,23 +48,9 @@
               "icon": "lucide-file",
               "title": "websever"
             }
-          },
-          {
-            "id": "0ef7f26328a42d38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "todo/B树、B+树和跳表.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "B树、B+树和跳表"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/B树、B+树和跳表.md",
+                "file": "todo/websever.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "B树、B+树和跳表 的大纲"
+              "title": "websever 的大纲"
             }
           },
           {
@@ -237,23 +209,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ef7f26328a42d38",
+  "active": "ee0360f88d9f7710",
   "lastOpenFiles": [
-    "todo/websever.md",
     "todo/B树、B+树和跳表.md",
+    "todo/未命名.md",
+    "todo/套接字.md",
+    "todo/websever.md",
+    "600数据结构与算法/算法思想/动态规划.md",
     "todo/Week Tasks.md",
     "README.md",
     "assets/README/学习路线图.jpg",
     "assets/README",
     "assets",
-    "todo/套接字.md",
     "500工程经验/空指针解引用.md",
     "500工程经验/合理的开辟线程数目.md",
     "500工程经验/调试.md",
     "500工程经验/代码命名规则.md",
     "500工程经验/常见英文bug的意思.md",
     "600数据结构与算法/算法思想/分治算法.md",
-    "600数据结构与算法/算法思想/动态规划.md",
     "600数据结构与算法/如何刷leetcode （hot 100 总结）.md",
     "700求职与实习/如何刷leetcode（思路与心得）.md",
     "700求职与实习/blog.md",
@@ -267,7 +240,6 @@
     "600数据结构与算法/算法实例/滑动窗口算法.md",
     "600数据结构与算法/算法实例/二叉树-递归与回溯.md",
     "600数据结构与算法/算法实例/KMP算法.md",
-    "600数据结构与算法/算法实例/递归算法.md",
     "800数据库/ques_imgs/主从复制.png",
     "600数据结构与算法/算法思想/assets/回溯算法/file-20250717102542038.png",
     "600数据结构与算法/算法思想/assets/贪心算法/file-20250721213243117.png",

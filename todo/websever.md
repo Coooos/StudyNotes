@@ -5,13 +5,30 @@
 
 [基于Linux下的vscode c/c++开发环境搭建详细教程_linux配置vscode c++环境-CSDN博客](https://blog.csdn.net/icacxygh001/article/details/120981354)
 
-
+[建议立刻将 WSL + VSCode 作为你的最强生产力环境，起飞吧_wsl vscode-CSDN博客](https://blog.csdn.net/yanbober/article/details/138245581)
 
 ---
 
 **本项目基于本站施磊老师的课程进行coding
 
 ---
+# 环境搭建
+
+[在wsl上配置vscode和c++环境 - 片刻的自由 - 博客园](https://www.cnblogs.com/7d1-z/p/18462132#:~:text=%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E4%BA%86g%2B%2B%E5%92%8Cgcc%20%E6%B2%A1%E6%9C%89%E5%88%99%E5%AE%89%E8%A3%85%E3%80%82%20%E5%86%99%E4%B8%80%E6%AE%B5cpp%E7%A8%8B%E5%BA%8F%E6%B5%8B%E8%AF%95%E4%B8%8B%20cout%3C%3C123%20%3C%3Cendl%3B%20%E7%BC%96%E8%AF%91%E3%80%81%E8%BF%90%E8%A1%8C,%E5%9C%A8windows%E6%9C%AC%E5%9C%B0%E7%9A%84vscode%E4%B8%8A%EF%BC%8C%E5%85%88%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E2%80%9CRemote%20-%20SSH%E2%80%9D%EF%BC%8C%E9%80%9A%E8%BF%87%E5%B7%A6%E4%B8%8B%E8%A7%92%E2%80%9C%E6%89%93%E5%BC%80%E8%BF%9C%E7%A8%8B%E7%AA%97%E5%8F%A3%E2%80%9D%E8%BF%9E%E6%8E%A5wsl%E7%9A%84linux%E4%B8%8A%EF%BC%8C%E5%B9%B6%E8%87%AA%E5%8A%A8%E5%AE%89%E8%A3%85vscode%E3%80%82%20%E5%88%9B%E5%BB%BAcpp%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E6%A0%B9%E6%8D%AE%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E2%80%9CC%2FC%2B%2B%20Extension%20Pack%E2%80%9D%E5%88%B0linux%E3%80%82)
+
+linux 装 gcc g++ gbd
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 什么是webserve
 **简单来说：想象Web服务器是一个餐厅的服务员。** 顾客（浏览器）告诉服务员（Web服务器）想要什么（请求一个URL）。服务员去厨房（文件系统或应用服务器）取食物（静态文件）或让厨师现做（动态内容），然后把做好的食物（HTTP响应）端给顾客。服务员负责整个点餐和上菜的过程。
