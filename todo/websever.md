@@ -33,7 +33,7 @@ USE chat
 
 select * from User
 
-
+DESCRIBE OfflineMessage;
 
 
 |  1 | kjm  | 123456   | offline
