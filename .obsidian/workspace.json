@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/websever.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "websever"
+              "title": "README"
             }
           },
           {
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/websever.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "websever 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -252,18 +252,21 @@
   },
   "active": "78dda89382001010",
   "lastOpenFiles": [
-    "todo/Makefile&CMake.md",
-    "600数据结构与算法/算法思想/动态规划.md",
-    "todo/websever.md",
-    "todo/GCC 和 G++.md",
-    "todo/IO多路复用.md",
-    "600数据结构与算法/算法思想/回溯算法.md",
-    "todo/B树、B+树和跳表.md",
-    "todo/套接字Stocker.md",
-    "todo/回调、占位符、绑定.md",
-    "todo/Week Tasks.md",
-    "README.md",
     "assets/README/学习路线图.jpg",
+    "集群聊天服务器/websever.md",
+    "todo/Week Tasks.md",
+    "集群聊天服务器/Makefile&CMake.md",
+    "集群聊天服务器/套接字Stocker.md",
+    "集群聊天服务器",
+    "600数据结构与算法/如何刷leetcode （hot 100 总结）.md",
+    "集群聊天服务器/B树、B+树和跳表.md",
+    "集群聊天服务器/回调、占位符、绑定.md",
+    "400现代c++/c++并发编程 原子操作.md",
+    "600数据结构与算法/算法思想/动态规划.md",
+    "集群聊天服务器/GCC 和 G++.md",
+    "集群聊天服务器/IO多路复用.md",
+    "600数据结构与算法/算法思想/回溯算法.md",
+    "README.md",
     "assets/README",
     "assets",
     "500工程经验/空指针解引用.md",
@@ -272,15 +275,12 @@
     "500工程经验/代码命名规则.md",
     "500工程经验/常见英文bug的意思.md",
     "600数据结构与算法/算法思想/分治算法.md",
-    "600数据结构与算法/如何刷leetcode （hot 100 总结）.md",
     "700求职与实习/如何刷leetcode（思路与心得）.md",
     "700求职与实习/blog.md",
     "700求职与实习/LSM - Tree.md",
     "700求职与实习/todo/待做项目.md",
     "700求职与实习/简历话术.md",
     "600数据结构与算法/算法思想/贪心算法.md",
-    "600数据结构与算法/算法思想/基本算法思想.md",
-    "600数据结构与算法/算法实例/常见算法解析.md",
     "800数据库/ques_imgs/主从复制.png",
     "600数据结构与算法/算法思想/assets/回溯算法/file-20250717102542038.png",
     "600数据结构与算法/算法思想/assets/贪心算法/file-20250721213243117.png",
@@ -297,7 +297,6 @@
     "todo/算法/assets/贪心算法",
     "家教/assets/吴君涵物理错题本/file-20250718183226942.png",
     "家教/assets/吴君涵物理错题本/file-20250718183215710.png",
-    "家教/assets/吴君涵物理错题本",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
