@@ -11,10 +11,14 @@
             "id": "8dd515ef03243a4d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "todo/demo.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "demo"
             }
           }
         ]
@@ -137,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "todo/demo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "demo 的大纲"
             }
           },
           {
@@ -177,6 +182,7 @@
   },
   "active": "8dd515ef03243a4d",
   "lastOpenFiles": [
+    "todo/demo.md",
     "Tiny-LSM/LSM - Tree简介.md",
     "900拓展知识/VPN（Virtual Private Network）.md",
     "todo/待做项目.md",
@@ -201,7 +207,6 @@
     "600辅助工具",
     "600辅助工具/CMake简介.md",
     "README.md",
-    "未命名.md",
     "集群聊天服务器/websever.md",
     "集群聊天服务器",
     "200数据结构与算法/如何刷leetcode （hot 100 总结）.md",
