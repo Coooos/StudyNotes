@@ -9,39 +9,6 @@
 
 ---
 
-**本项目基于本站施磊老师的课程进行coding
-
----
-# 环境搭建
-
-[在wsl上配置vscode和c++环境 - 片刻的自由 - 博客园](https://www.cnblogs.com/7d1-z/p/18462132#:~:text=%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E4%BA%86g%2B%2B%E5%92%8Cgcc%20%E6%B2%A1%E6%9C%89%E5%88%99%E5%AE%89%E8%A3%85%E3%80%82%20%E5%86%99%E4%B8%80%E6%AE%B5cpp%E7%A8%8B%E5%BA%8F%E6%B5%8B%E8%AF%95%E4%B8%8B%20cout%3C%3C123%20%3C%3Cendl%3B%20%E7%BC%96%E8%AF%91%E3%80%81%E8%BF%90%E8%A1%8C,%E5%9C%A8windows%E6%9C%AC%E5%9C%B0%E7%9A%84vscode%E4%B8%8A%EF%BC%8C%E5%85%88%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E2%80%9CRemote%20-%20SSH%E2%80%9D%EF%BC%8C%E9%80%9A%E8%BF%87%E5%B7%A6%E4%B8%8B%E8%A7%92%E2%80%9C%E6%89%93%E5%BC%80%E8%BF%9C%E7%A8%8B%E7%AA%97%E5%8F%A3%E2%80%9D%E8%BF%9E%E6%8E%A5wsl%E7%9A%84linux%E4%B8%8A%EF%BC%8C%E5%B9%B6%E8%87%AA%E5%8A%A8%E5%AE%89%E8%A3%85vscode%E3%80%82%20%E5%88%9B%E5%BB%BAcpp%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E6%A0%B9%E6%8D%AE%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E2%80%9CC%2FC%2B%2B%20Extension%20Pack%E2%80%9D%E5%88%B0linux%E3%80%82)
-
-linux 装 gcc g++ gbd
-
-
-linux 安装 boost muodu网络库
-
-telnet 127.0.0.1 6000
-
-{"msgid":1,"id":1,"password":"123456"}
-
-mysql -u root -p
-
-Kuang200354
-
-USE chat
-
-select * from User
-
-DESCRIBE OfflineMessage;
-
-
-|  1 | kjm  | 123456   | offline
-
-[在 Ubuntu 上安装 Muduo 网络库的详细指南_ubuntu安装muduo-CSDN博客](https://blog.csdn.net/m0_74795952/article/details/144631342)
-
-
-
 
 
 
