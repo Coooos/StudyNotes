@@ -6,7 +6,6 @@ tags:
 
 项目来源：[【项目】九万字手把手教你写高并发内存池（化简版tcmalloc）-CSDN博客](https://blog.csdn.net/m0_62782700/article/details/135443352)
 
-
 ## NEW和Malloc的区别
 
 `new` 是 C++ 的操作符，用于对象分配，安全且自动初始化；`malloc` 是 C 的函数，仅分配内存，需手动管理类型和初始化。new的底层是用malloc实现的。new和delete中封装了operator new和operator delete。 operator new中又调用了malloc来帮助new来开空间，封装malloc复合C++中new失败了抛异常的机制。 operator delete中也是通过宏定义后的free来释放空间。所以说C/C++中申请和释放内存块最终还是通过malloc和free来实现的。
@@ -197,3 +196,6 @@ int main() {
 - **哈希桶**是哈希表的底层存储单元，用于存储键值对并处理冲突。
 - 哈希表通过哈希函数将键映射到哈希桶，哈希桶负责存储键值对并解决冲突。
 
+
+
+# 面试常见问题

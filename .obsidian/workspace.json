@@ -41,16 +41,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/Week Tasks.md",
+                "file": "读源码/websever.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week Tasks"
+              "title": "websever"
+            }
+          },
+          {
+            "id": "f9da6f28c87a0f76",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/README/学习路线图.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "学习路线图"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/Week Tasks.md",
+                "file": "assets/README/学习路线图.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Week Tasks 的大纲"
+              "title": "学习路线图 的大纲"
             }
           },
           {
@@ -209,24 +221,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad8ee108e0271fc4",
+  "active": "f9da6f28c87a0f76",
   "lastOpenFiles": [
+    "读源码/websever.md",
+    "读源码/RPC.md",
+    "读源码/moduo网络库学习.md",
+    "读源码/套接字Stocker.md",
+    "项目/blog.md",
+    "项目/TC malloc 内存池.md",
+    "项目/C++11 ThreadPool.md",
+    "Tiny-LSM/LSM - Tree简介.md",
+    "Tiny-LSM/B树、B+树和跳表.md",
+    "todo/Week Tasks.md",
+    "todo/demo.md",
     "200数据结构与算法/算法思想/动态规划.md",
     "200数据结构与算法/算法实例/常见算法解析.md",
     "200数据结构与算法/算法实例/单调栈、优先队列与堆.md",
     "200数据结构与算法/算法实例/二叉树-递归与回溯.md",
-    "集群聊天服务器/环境配置.md",
-    "集群聊天服务器/IO多路复用.md",
-    "集群聊天服务器/GCC 和 G++.md",
-    "集群聊天服务器/面试.md",
-    "集群聊天服务器/回调、占位符、绑定.md",
-    "读源码/websever.md",
-    "读源码/moduo网络库学习.md",
-    "todo/demo.md",
-    "todo/Week Tasks.md",
-    "Tiny-LSM/B树、B+树和跳表.md",
-    "Tiny-LSM/LSM - Tree简介.md",
-    "读源码/套接字Stocker.md",
+    "项目/集群聊天服务器/环境配置.md",
+    "项目/集群聊天服务器/IO多路复用.md",
+    "项目/集群聊天服务器/GCC 和 G++.md",
+    "项目/集群聊天服务器/面试.md",
+    "项目/集群聊天服务器/回调、占位符、绑定.md",
     "读源码",
     "900拓展知识/VPN（Virtual Private Network）.md",
     "todo/待做项目.md",
@@ -234,14 +250,10 @@
     "900拓展知识/obisitain 同步问题.md",
     "900拓展知识/JSON.md",
     "900拓展知识/DNS服务器.md",
-    "900拓展知识/优质blog.md",
-    "900拓展知识/生产者消费者模型.md",
-    "900拓展知识/库冲突.md",
-    "900拓展知识/翻译单元.md",
     "Tiny-LSM",
     "assets/README/学习路线图.jpg",
     "600辅助工具",
-    "集群聊天服务器",
+    "项目/集群聊天服务器",
     "assets/README",
     "assets",
     "800数据库/ques_imgs/主从复制.png",
