@@ -53,12 +53,14 @@
             "id": "f9da6f28c87a0f76",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/README/学习路线图.jpg"
+                "file": "Tiny-LSM/LSM - Tree简介.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "学习路线图"
+              "icon": "lucide-file",
+              "title": "LSM - Tree简介"
             }
           }
         ],
@@ -182,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/README/学习路线图.jpg",
+                "file": "Tiny-LSM/LSM - Tree简介.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "学习路线图 的大纲"
+              "title": "LSM - Tree简介 的大纲"
             }
           },
           {
@@ -223,6 +225,8 @@
   },
   "active": "f9da6f28c87a0f76",
   "lastOpenFiles": [
+    "Tiny-LSM/B树、B+树和跳表.md",
+    "assets/README/学习路线图.jpg",
     "读源码/websever.md",
     "读源码/RPC.md",
     "读源码/moduo网络库学习.md",
@@ -231,7 +235,6 @@
     "项目/TC malloc 内存池.md",
     "项目/C++11 ThreadPool.md",
     "Tiny-LSM/LSM - Tree简介.md",
-    "Tiny-LSM/B树、B+树和跳表.md",
     "todo/Week Tasks.md",
     "todo/demo.md",
     "200数据结构与算法/算法思想/动态规划.md",
@@ -249,9 +252,7 @@
     "900拓展知识/RALL.md",
     "900拓展知识/obisitain 同步问题.md",
     "900拓展知识/JSON.md",
-    "900拓展知识/DNS服务器.md",
     "Tiny-LSM",
-    "assets/README/学习路线图.jpg",
     "600辅助工具",
     "项目/集群聊天服务器",
     "assets/README",
