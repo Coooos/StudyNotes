@@ -225,6 +225,7 @@
   },
   "active": "f9da6f28c87a0f76",
   "lastOpenFiles": [
+    "MySQL",
     "Tiny-LSM/LSM - Tree简介.md",
     "GoLang/GO语言学习.md",
     "Go",
@@ -254,7 +255,6 @@
     "todo/待做项目.md",
     "900拓展知识/RALL.md",
     "900拓展知识/obisitain 同步问题.md",
-    "900拓展知识/JSON.md",
     "Tiny-LSM",
     "600辅助工具",
     "项目/集群聊天服务器",
