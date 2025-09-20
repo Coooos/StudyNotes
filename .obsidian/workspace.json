@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GoLang/GO语言学习.md",
+                "file": "todo/Week Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GO语言学习"
+              "title": "Week Tasks"
             }
           }
         ],
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GoLang/GO语言学习.md",
+                "file": "todo/Week Tasks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GO语言学习 的大纲"
+              "title": "Week Tasks 的大纲"
             }
           },
           {
@@ -225,9 +225,10 @@
   },
   "active": "f9da6f28c87a0f76",
   "lastOpenFiles": [
+    "todo/demo.md",
+    "GoLang/GO语言学习.md",
     "MySQL",
     "Tiny-LSM/LSM - Tree简介.md",
-    "GoLang/GO语言学习.md",
     "Go",
     "GoLang",
     "Tiny-LSM/B树、B+树和跳表.md",
@@ -240,7 +241,6 @@
     "项目/TC malloc 内存池.md",
     "项目/C++11 ThreadPool.md",
     "todo/Week Tasks.md",
-    "todo/demo.md",
     "200数据结构与算法/算法思想/动态规划.md",
     "200数据结构与算法/算法实例/常见算法解析.md",
     "200数据结构与算法/算法实例/单调栈、优先队列与堆.md",
@@ -264,7 +264,6 @@
     "200数据结构与算法/算法思想/assets/回溯算法/file-20250717102542038.png",
     "200数据结构与算法/算法思想/assets/贪心算法/file-20250721213243117.png",
     "200数据结构与算法/算法实例",
-    "200数据结构与算法/算法思想/assets/贪心算法",
     "200数据结构与算法/imgs/20210316095619221.png",
     "200数据结构与算法/imgs/时间复杂度.png",
     "200数据结构与算法/imgs/2.gif",
